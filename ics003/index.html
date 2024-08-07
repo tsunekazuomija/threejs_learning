@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>geometry</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.167.0/build/three.module.js"
+      }
+    }
+  </script>
+  <script type="module" src="index.js"></script>
+</head>
+<body>
+  <p><a href="../index.html">Home</a></p>
+  <h1>geometry</h1>
+  <canvas id="myCanvas"></canvas>
+  <p>
+    three.jsのBufferGeometryを使ってポリゴンを描画しています。<br/>
+    MeshBasicMaterialを使うと描画されるのに、MeshNormalMaterialを使うと
+    描画されないところで詰まった。<br/>
+    法線の情報が必要だったらしく、computeVertexNormals()を呼び出すことで
+    描画されるようになった。<br/>
+  </p>
+  <p>
+    参考:<br/>
+    <a href="https://threejs.org/docs/#api/en/geometries/PlaneGeometry">https://threejs.org/docs/#api/en/geometries/PlaneGeometry</a><br/>
+    <a href="https://qiita.com/reona396/items/95812b213910c007154f">p5.jsで描ける図形まとめ</a>
+  </p>
+</body>
+</html>
