@@ -1,2 +1,4 @@
 # threejs_learning
-three.jsに関するソースコード。個人的な練習と参照を目的としている。
+This repository contains various examples and exercises for learning Three.js. These are based on tutorials and resources found online and are intended for personal reference and practice.
+
+このリポジトリには、Three.jsを学習するための様々な例や演習が含まれています。これらはオンラインで見つけたチュートリアルやリソースに基づいており、個人的な参照や練習を目的としています。
