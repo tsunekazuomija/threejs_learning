@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>camera orbit control</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.167.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.167.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="index.js"></script>
+</head>
+<body>
+  <p><a href="../index.html">Home</a></p>
+  <h1>camera orbit control</h1>
+  <canvas id="myCanvas"></canvas>
+  <p>
+    OrbitControlsクラスを使用したカメラの制御<br/>
+    <ul>
+      <li>左ドラッグで回転</li>
+      <li>ホイールでズーム</li>
+      <li>右ドラッグで平行移動</li>
+    </ul>
+  </p>
+  <p>
+    参考:ICS MEDIA. "WebGL とJavaScript で学ぶ3D表現 Three.jsのOrbitControlsで手軽にカメラを制御する". 
+    <a href="https://ics.media/tutorial-three/camera_orbitcontrols/">https://ics.media/tutorial-three/camera_orbitcontrols/</a>, 
+    (参照:2024-08-08)
+  </p>
+</body>
+</html>
